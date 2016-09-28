@@ -1,0 +1,254 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="style.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('.navi ul').prev().addClass('close');
+		
+		$('.navi li').click(function() {
+			if( $(this).next('ul').length )
+			{
+				if($(this).next().css('display') == 'none') 
+				{				
+					if( $(this).parent().attr('class') == 'navi' )
+					{
+						$('.navi').children('ul').hide('slow');
+						$('.navi ul').prev().removeClass('open');
+						$('.navi ul').prev().addClass('close');
+					}
+					else
+					{
+						$('.navi').children('ul').children('ul').hide('slow');
+						$(this).next().css("margin-left", 10);
+					}
+					
+					$(this).removeClass();
+					$(this).addClass('open');
+					$(this).next().toggle('slow');
+				}
+				else
+				{		
+					$(this).addClass('close');
+					$('.navi ul').prev().removeClass('open');
+					$(this).next().toggle('slow');
+				}
+				return false;	
+			}
+		});
+	});
+</script>
+<script src="js/cufon.js" type="text/javascript"></script>
+<script src="js/myriadpro-cond.font.js" type="text/javascript"></script>
+<script type="text/javascript">
+			Cufon.replace('.cufon'); // Works without a selector engine
+		</script>
+<title>Документ без названия</title>
+</head>
+
+<body>
+<div class="centrum">
+	<div class="header">
+    	<div class="logo"><a href="http://caguct.ru/mosskazka/index.html"><img src="images/logo.png" alt="МомМказка" /></a></div>
+        <div class="menu">
+        	<ul>
+            	<li><a href="#">Главная</a></li>
+                <li><a href="#">Доставка и оплата</a></li>
+                <li><a href="#">Контакты</a></li>
+                <li><a href="#">Сотрудничество</a></li>
+                <li><a href="#">Книга жалоб и предложений</a></li>
+                <li><a href="#">Наши проекты</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="wrapper">
+    	<div class="left">
+            <ul class="navi">
+                <li><span></span><a href="#">Маленькая фея</a><em></em></li>
+                    <ul>
+                        <li><a href="#">Колечки настроения</a></li>
+                        <ul>
+                                <li><a href="#">Колечки настроения</a></li>
+                                <li><a href="#">Подарочные пакеты</a></li>
+                                <li><a href="#">Нарядные платья VIAGGIO</a></li>
+                                <li><a href="#">Нарядные платья США</a></li>
+                                <li><a href="#">Подарочные пакеты</a></li>
+                            </ul>
+                        <li><a href="#">Подарочные пакеты</a></li>
+                        <ul>
+                                <li><a href="#">Колечки настроения</a></li>
+                                <li><a href="#">Подарочные пакеты</a></li>
+                                <li><a href="#">Нарядные платья VIAGGIO</a></li>
+                                <li><a href="#">Нарядные платья США</a></li>
+                                <li><a href="#">Подарочные пакеты</a></li>
+                            </ul>
+                        <li><a href="#">Нарядные платья VIAGGIO</a></li>
+                        <li><a href="#">Нарядные платья США</a></li>
+                        <li><a href="#">Подарочные пакеты</a></li>
+                    </ul>
+                <li><span></span><a href="#">Дракоша</a><em></em></li>
+                <li><span></span><a href="#">Герои мультфильмов</a><em></em></li>
+                	<ul>
+                        <li><a href="#">Колечки настроения</a></li>
+                        <li><a href="#">Подарочные пакеты</a></li>
+                        <li><a href="#">Нарядные платья VIAGGIO</a></li>
+                        <li><a href="#">Нарядные платья США</a></li>
+                        <li><a href="#">Подарочные пакеты</a></li>
+                    </ul>
+                <li><span></span><a href="#">Колечки настроения</a><em></em></li>
+                	<ul>
+                        <li><a href="#">Колечки настроения</a></li>
+                        <li><a href="#">Подарочные пакеты</a></li>
+                        <li><a href="#">Нарядные платья VIAGGIO</a></li>
+                        <li><a href="#">Нарядные платья США</a></li>
+                        <li><a href="#">Подарочные пакеты</a></li>
+                    </ul>
+                <li><span></span><a href="#">Блюберри (юбки-фмериканка, топы, прочее)</a><em></em></li>
+                <li><span></span><a href="#">Нарядные платья VIAGGIO</a><em></em></li>
+                <li><span></span><a href="#">Нарядные платья США</a><em></em></li>
+                <li><span></span><a href="#">Подарочные пакеты</a><em></em></li>
+            </ul>
+            <div class="block">
+            	<div class="title cufon">Бренды</div>
+                <div class="content">
+                	<div class="brend"><img src="images/tachki.jpg" alt="Тачки" /></div>
+                    <div class="brend"><img src="images/luntik.jpg" alt="Лунтик" /></div>
+                    <div class="brend"><img src="images/princess.jpg" alt="Принцесса" /></div>
+                    <div class="brend"><img src="images/bobgubko.jpg" alt="ГубкаБоб" /></div>
+                </div>
+            </div>            
+            <div class="block">
+            	<div class="title cufon">Последние новости</div>
+                <div class="lastnews">
+                	<ul>
+                    	<li>
+                            <span>11.11.2011</span>
+                            <a href="#">Саммит ЕС: все указывает на то, что ответ со стороны властей будет минимальным - ВВН Евро упало.</a>
+                       	</li>
+                        <li>
+                            <span>11.11.2011</span>
+                            <a href="#">Саммит ЕС: все указывает на то, что ответ со стороны властей будет минимальным - ВВН Евро упало.</a>
+                       	</li>
+                        <li>
+                            <span>11.11.2011</span>
+                            <a href="#">Саммит ЕС: все указывает на то, что ответ со стороны властей будет минимальным - ВВН Евро упало.</a>
+                       	</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="center">
+        	<div class="full_category">
+            	<h1><img src="images/full_product_h1_bd.png" alt="Корзина" /> Корзина</h1>              
+                <div class="block">
+                <img src="images/feya_cat.png" alt="feya" class="alignleft" />
+                  <p>В нашем магазине Вы можете найти и купить весь ассортимент товаров под маркой &quot;Маленькая фея&quot;.</p>
+                  <p>В настоящее время  марка «Маленькая фея» входит в тройку лидеров на рынке детской косметической продукции* и занимает лидирующие позиции по знанию, потреблению и лояльности среди потребителей. Каждая вторая мама в России знает бренд «Маленькая фея», а каждая третья покупает товары под этой маркой для своей дочки**.</p>
+                  <p>Бренд «Маленькая фея» активно рекламируется на крупнейших телеканалах России, Украины и Казахстана.</p>
+                  <p>Рекламные ролики марки «Маленькая фея» размещаются в самых рейтинговых телепередачах, фильмах и детских программах с большой и стабильной детской и женской аудиторией.</p>
+                  <p>В 2007 г. бренд «Маленькая фея» передан Концерном «Калина» в управление ООО «Главсказка Интернешнл». Мы стремимся к тому, чтобы бренд «Маленькая фея» стал лидером не только на рынке косметических товаров для детей, но и в других сегментах рынка, таких как аксессуары и бижутерия для девочек, детская канцелярская и печатная продукция, товары для творчества, детская одежда, игры и игрушки.</p>
+                  <p>Мы надеемся, что уже в ближайшем будущем мы сможем предложить своим партнерам и потребителям широкий ассортимент детской продукции под маркой «Маленькая фея».</p>
+                  <p><i style="color:#999;">*По данным AC Nielsen (2007 г.)<br />
+**По данным Gallup (ноябрь 2007 г.)</i></p>
+                </div>    
+                <h1><img src="images/full_product_h1_bd.png" alt="Корзина" /> Корзина</h1>
+                <div class="category">
+                	<div class="cat">
+                    	<div><img src="images/sumko.png" alt="sumko" /></div>
+                        <div><a href="#">Пеналы, Рюкзаки, Сумка для обуви</a></div>
+                    </div>
+                    <div class="cat">
+                    	<div><img src="images/milo.png" alt="milo" /></div>
+                        <div><a href="#">Одежда</a></div>
+                    </div>
+                    <div class="cat">
+                    	<div><img src="images/sumko.png" alt="sumko" /></div>
+                        <div><a href="#">Наборы для творчества</a></div>
+                    </div>
+                    <div class="cat">
+                    	<div><img src="images/milo.png" alt="milo" /></div>
+                        <div><a href="#">Книги, книги-расскраски, раскраски</a></div>
+                    </div>
+                    <div class="cat">
+                    	<div><img src="images/sumko.png" alt="sumko" /></div>
+                        <div><a href="#">Бижутерия</a></div>
+                    </div>
+                    <div class="cat">
+                    	<div><img src="images/milo.png" alt="milo" /></div>
+                        <div><a href="#">Игрушки</a></div>
+                    </div>  
+                    <div class="clr"></div>                  
+                </div>      
+            </div>
+      	</div>
+        <div class="right">
+        	<div class="loginform">
+                <form action="" method="post">
+                    <div class="login"><label>Логин:</label> <input name="login" type="text" /></div>
+                    <div class="password"><label>Пароль:</label> <input name="password" type="password" /></div>
+                    <div class="enter"><input name="" type="checkbox" class="ch" value="" checked="checked" /> <label>запомнить</label> <input class="v" name="ok" type="submit" value="Войти" /></div>
+                </form>
+                <div class="rlink">
+                	<ul>
+                    	<li><a href="#">Забыли пароль</a></li>                        
+                        <li class="reglink"><a href="#">Регистрация</a></li>
+                    </ul>
+                    <div class="clr"></div>
+                </div>
+            </div>
+            <div class="block_trash">
+            	<div class="title">Корзинка</div>
+                <div class="content">
+                	<p>В вашей корзине: <strong>2 товара</strong></p>
+                    <p>На сумму: <strong>100500 руб.</strong></p>
+                    <div class="klink"><a href="#">Оформить заказ</a> <a href="#">Перейти в корзину</a></div>
+                </div>
+            </div>
+            <div class="block">
+            	<div class="title cufon">Лидеры продаж</div>
+                <div class="content">
+                    <div class="lider">
+                        <div class="face">                            
+                            <div class="image"><img src="images/tovar.jpg" width="86" alt="Блузка" /></div>
+                            <div class="price"><b>436.00</b> Руб.</div>
+                        </div>
+                        <div class="title"><a href="#">Блузка трикотажная "Маленькая Фея"</a></div>
+                    </div>
+                    <div class="lider">
+                        <div class="face">                            
+                            <div class="image"><img src="images/tovar.jpg" width="86" alt="Блузка" /></div>
+                            <div class="price"><b>436.00</b> Руб.</div>
+                        </div>
+                        <div class="title"><a href="#">Блузка трикотажная "Маленькая Фея"</a></div>
+                    </div>
+                    <div class="lider">
+                        <div class="face">                            
+                            <div class="image"><img src="images/tovar.jpg" width="86" alt="Блузка" /></div>
+                            <div class="price"><b>436.00</b> Руб.</div>
+                        </div>
+                        <div class="title"><a href="#">Блузка трикотажная "Маленькая Фея"</a></div>
+                    </div>
+                    <div class="lider">
+                        <div class="face">                            
+                            <div class="image"><img src="images/tovar.jpg" width="86" alt="Блузка" /></div>
+                            <div class="price"><b>436.00</b> Руб.</div>
+                        </div>
+                        <div class="title"><a href="#">Блузка трикотажная "Маленькая Фея"</a></div>
+                    </div>
+                    <div class="clr"></div>
+                </div>
+            </div>
+            <div class="block">
+            	<div class="title cufon">Реклама на сайте</div>
+                <div class="content">
+                	Рекламка
+                </div>
+            </div>
+        </div>
+        <div class="clr"></div>
+    </div>
+</div>
+</body>
+</html>

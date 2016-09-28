@@ -1,0 +1,60 @@
+https://www.youtube.com/watch?v=BQOse-vW0e8
+https://www.youtube.com/watch?v=BQOse-vW0e8
+Демонстрация работы Avito-постера на DLE
+Модуль Avito-постер работает совместно с сервисом antigate.
+#DLE
+
+http://holzerhof.ch/
+https://upload.wikimedia.org/wikipedia/commons/9/93/No-logo.svg
+Holzerhof
+Швейцарский сайт по продаже ёлок
+#WordPress
+
+http://pereprava.zp.ua/ru/
+http://pereprava.zp.ua/wp-content/themes/pereprava/images/logo-720.png
+Переправа
+Адаптивная верска + модуль добавления слайдера для каждой записи.
+#WordPress
+
+http://skeleton.com.ua/
+http://skeleton.com.ua/wp-content/themes/skeleton/images/logo.png
+Сервисный центр Скелетон
+Адаптивная верска + модуль проверки состояния реманта через API.
+#WordPress
+
+http://soc-proof.su/
+http://soc-proof.su/templates/soc-proof/images/logo.png
+Автоматический сервис по продвижению в социальных сетях.
+Верстка HTML + создание адаптивного шаблона для DLE.
+#DLE
+
+http://www.films4apple.ru/
+http://www.films4apple.ru/templates/films4apple2015/images/logo.png
+Фильмы для мобильных Apple девайсов
+Верстка HTML + создание адаптивного шаблона для DLE.
+#DLE
+
+http://promovk.ru
+http://promovk.ru/content/template/soc/images/logo.png
+Продвижение\Заработок Вконтакте
+Дизайн, верстка HTML + создание шаблона для собсвенного самописного движка HY.
+#HY
+
+http://360.zp.ua/
+http://360.zp.ua/content/template/360/images/logo.png
+Панорамы Запорожья
+Дизайн, верстка HTML + создание шаблона для собсвенного самописного движка HY.
+#HY
+
+http://www.videonebo.biz/
+http://www.videonebo.biz/images/logo.png
+Видеонебо
+Адаптация шаблона для KVS.
+#KVS
+
+http://seouniver.ru/
+http://seouniver.ru/wp-content/themes/seouniver_new/images/logo.png
+SeoUniver
+Дизайн, верстка HTML + создание шаблона для WP.
+#WordPress
+

@@ -1,0 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script src="js/jquery.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(e) {
+		$('.coup .content div').hide();
+		$('.coup .content div:first').show();
+		
+        $('.coup .top li').click(function(){
+			var thisID = $(this).attr('id');
+			$('.coup .content div').hide();
+			$('.coup .content div#'+thisID).show();
+			$('.coup .top li').removeClass('active');
+			$(this).addClass('active');
+		});
+    });
+</script>
+<title>Untitled Document</title>
+</head>
+
+<body>
+<div class="centrum">
+	<div class="header">
+    	<ul class="menu">
+        	<li><a href="#">About</a></li>
+        	<li><a href="#">About</a></li>
+        	<li><a href="#">About</a></li>
+        	<li><a href="#">About</a></li>
+        </ul>
+    	<ul class="follow">
+        	<li><a href="#">About</a></li>
+        	<li><a href="#">About</a></li>
+        	<li><a href="#">About</a></li>
+        	<li><a href="#">About</a></li>
+        </ul>
+        <div class="banner"><img src="images/top-banner.jpg" alt="banner" /></div>
+    </div><!--header-->
+    <div class="wrapper">
+    	<div class="left">
+        	<div class="main">
+            	<div class="content">
+            		<ul class="main-menu">
+                    	<li><a href="#">О компании</a></li>
+                        <li><a href="#">Услуги</a></li>
+                        <li><a href="#">Наши объекты</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Новости</a></li>
+                        <li class="last"><a href="#">Полезная информация</a></li>
+                    </ul>
+                    <ul class="second-menu">
+                    	<li><a href="#">ЕГЭ и ГИА</a></li>
+                        <li><a href="#">Олимпиады</a></li>
+                        <li><a href="#">Профессии</a></li>
+                        <li><a href="#">Специальности</a></li>
+                        <li><a href="#">Образовательный кредит</a></li>
+                        <li><a href="#">Рефераты</a></li>
+                        <li class="last"><a href="#">Ура, лето!</a></li>
+                    </ul>
+                </div>
+                <div class="lem"></div>
+            </div><!--main-->
+            <div class="banner"><img src="images/googloklama.png" alt="banner" /></div>
+            <div class="middle">
+            	<div class="m-left">
+                	<div class="coup">
+                   	  <ul class="top">
+                        	<li class="active" id="afo">Афоризмы</li>
+                            <li id="per">Пересказы</li>
+                            <li id="boo">Учебники</li>
+                            <li id="dre">Каталог одежды</li>
+                            <li id="bib">Библиотека</li>
+                        </ul>
+                        <div class="content">
+                        	<div id="afo">Деятельность министерства: природо-
+охранная, разрешительно-лицензионная, экологический контроль и др. Структура организации. Нормативные акты Мин-
+природы. Пример запроса информации. Контакты.
+							</div>
+                        	<div id="per">Пересказы</div>
+                        	<div id="boo">Учебники</div>
+                        	<div id="dre">одежды</div>
+                        	<div id="bib">Библиотека</div>
+                        </div>
+                    </div><!--coup-->
+                	<ul class="block-posts">
+                    	<li>
+                        	<h3 class="title">Последние новости</h3>
+                            <div class="content">
+                                <ul class="lastnews">
+                                	<li><a href="#">Mount Rainier ranger killed in rescue effort</a></li>
+                                    <li><a href="#">EXCLUSIVE: Biden's security team squared off in Nantucket barroom brawl</a></li>
+                                    <li><a href="#">Turkey searches for downed plane off Syrian coast</a></li>
+                                    <li><a href="#">Some bird flu only 3 mutations from pandemic</a></li>
+                                    <li><a href="#">Tax wars: Norquist strikes back</a></li>
+                                    <li><a href="#">Priest is first US church official convicted for how he handled sex-abuse claims</a></li>
+                                    <li><a href="#">Obama follows Romney in high-stakes</a></li>
+                                	<li><a href="#">Mount Rainier ranger killed in rescue effort</a></li>
+                                    <li><a href="#">EXCLUSIVE: Biden's security team squared off in Nantucket barroom brawl</a></li>
+                                    <li><a href="#">Turkey searches for downed plane off Syrian coast</a></li>
+                                    <li><a href="#">Some bird flu only 3 mutations from pandemic</a></li>
+                                    <li><a href="#">Tax wars: Norquist strikes back</a></li>
+                                    <li><a href="#">Priest is first US church official convicted for how he handled sex-abuse claims</a></li>
+                                    <li><a href="#">Obama follows Romney in high-stakes</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div><!--m-left-->
+                <div class="m-right">
+                	<ul class="block-posts">
+                    	<li>
+                        	<h3 class="title">Сохраним экологию</h3>
+                            <div class="content">
+                            	<img src="images/eco.png" alt="eco" />
+                                <p>Деятельность министерства: природо-
+охранная, разрешительно-лицензионная, экологический контроль и др. Структура организации. Нормативные акты Мин-
+природы. Пример запроса информации. Контакты.</p>
+                            </div>
+                        </li>
+                        <li>
+                        	<h3 class="title">Сохраним экологию</h3>
+                            <div class="content">
+                            	<img src="images/eco.png" alt="eco" />
+                                <p>Деятельность министерства: природо-
+охранная, разрешительно-лицензионная, экологический контроль и др. Структура организации. Нормативные акты Мин-
+природы. Пример запроса информации. Контакты.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div><!--m-right-->
+                <div class="blocks">
+                	<ul class="block-posts">
+                    	<li>
+                        	<h3 class="title">Здоровье</h3>
+                            <div class="content">
+                                <p>Деятельность министерства: природо-
+охранная, разрешительно-лицензионная, экологический контроль и др. Структура организации. Нормативные акты Мин-
+природы. Пример запроса информации. Контакты.</p>
+                            </div>
+                        </li>
+                    	<li>
+                        	<h3 class="title">Здоровье</h3>
+                            <div class="content">
+                                <p>Деятельность министерства: природо-
+охранная, разрешительно-лицензионная, экологический контроль и др. Структура организации. Нормативные акты Мин-
+природы. Пример запроса информации. Контакты.</p>
+                            </div>
+                        </li>
+                    	<li>
+                        	<h3 class="title">Здоровье</h3>
+                            <div class="content">
+                                <p>Деятельность министерства: природо-
+охранная, разрешительно-лицензионная, экологический контроль и др. Структура организации. Нормативные акты Мин-
+природы. Пример запроса информации. Контакты.</p>
+                            </div>
+                        </li>
+                    	<li>
+                        	<h3 class="title">Здоровье</h3>
+                            <div class="content">
+                                <p>Деятельность министерства: природо-
+охранная, разрешительно-лицензионная, экологический контроль и др. Структура организации. Нормативные акты Мин-
+природы. Пример запроса информации. Контакты.</p>
+                            </div>
+                        </li>
+                    	<li>
+                        	<h3 class="title">Здоровье</h3>
+                            <div class="content">
+                                <p>Деятельность министерства: природо-
+охранная, разрешительно-лицензионная, экологический контроль и др. Структура организации. Нормативные акты Мин-
+природы. Пример запроса информации. Контакты.</p>
+                            </div>
+                        </li>
+                    	<li>
+                        	<h3 class="title">Здоровье</h3>
+                            <div class="content">
+                                <p>Деятельность министерства: природо-
+охранная, разрешительно-лицензионная, экологический контроль и др. Структура организации. Нормативные акты Мин-
+природы. Пример запроса информации. Контакты.</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="clr"></div>
+                </div><!--blocks-->
+            </div><!--middle-->
+        </div><!--left-->
+        <div class="right">
+        	<div class="main">
+            	<div class="content">
+            		<ul class="follow">
+                    	<li class="rss"><a href="#"><img src="images/ico-rss.png" alt="rss" /><b>Подписатся</b> на RSS</a></li>
+                    	<li class="tw"><a href="#"><img src="images/ico-tw.png" alt="tw" /><b>Подписатся</b> в Twitter-ev</a></li>
+                    </ul>
+                </div>
+                <div class="lem"></div>
+            </div><!--main-->
+            <div class="bord">
+                <div class="block">
+                    <div class="title">Подпишись на обновления блога по RSS:</div>
+                    <div class="content">
+                    	<ul>
+                        	<li><img src="images/google-reader-icon.png" alt="google" /><a href="#">в Google Reader</a></li>
+                        	<li><img src="images/yandex-lenta-icon.png" alt="yandex" /><a href="#">в Яндекс.Ленте</a></li>
+                        	<li><img src="images/rss-to-email-icon.png" alt="RSS2email" /><a href="#">по e-mail через RSS2email</a></li>
+                        	<li><img src="images/feedburner-icon.png" alt="FeedBurner" /><a href="#">по e-mail через FeedBurner</a></li>
+                        	<li><img src="images/twitter-icon.png" alt="Twitter" /><a href="#">в Twitter</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <ul class="wdgts">
+                    <li>
+                        <h3><span>Разделы</span></h3>
+                        <ul class="rubr">
+                            <li><a href="#">Раздел (100500)</a></li>
+                            <li><a href="#">Раздел (100500)</a></li>
+                            <li><a href="#">Раздел (100500)</a></li>
+                            <li><a href="#">Раздел (100500)</a></li>
+                            <li><a href="#">Раздел (100500)</a></li>
+                            <li><a href="#">Раздел (100500)</a></li>
+                            <li><a href="#">Раздел (100500)</a></li>
+                            <li><a href="#">Раздел (100500)</a></li>
+                            <li><a href="#">Раздел (100500)</a></li>
+                            <li><a href="#">Раздел (100500)</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!--bord-->
+        </div><!--right-->
+        <div class="clr"></div>
+    </div><!--wrapper-->
+	<div class="hFooter"></div>
+</div>
+<div class="footer">
+	<div class="info">
+    	<div class="name">Учёба.ру — образовательный портал №1 в России</div>
+        <div class="descr">Ищете где получить качественное образование в Москве, России или за рубежом? На Учёбе.ру мы собрали для вас всю нужную информацию о среднем, профессиональном, высшем и бизнес-образовании. В нашем каталоге представлены все школы, колледжи, вузы и другие учебные заведения, образовательные программы и инструменты для их поиска и сравнения. Вы можете выбрать интересующую вас специальность, сравнить программы государственного и частного образования, узнать стоимость обучения и условия поступления, ознакомиться с вариантами дистанционного или заочного обучения, выбрать куда можно пойти учиться после 9 или 11 классов и многое другое.</div>
+    </div>
+    <div class="sosumi">Copyright © 2005–2012 ООО «РДВ-Медиа». Учредитель ЗАО «Работа для вас», свидетельство Эл № ФС 77-23324.<br />
+Перепечатка материалов и фотографий допускается только по согласованию с редакцией.</div>
+    <div class="counters"><img src="images/levi.png" alt="levi" /> <img src="images/levi.png" alt="levi" /></div>
+</div>
+</body>
+</html>

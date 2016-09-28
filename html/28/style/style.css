@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+body, html { color:#fff; background:#0f0608 url(../images/bg.gif) repeat; font-family:Arial, Helvetica, sans-serif; margin:0px; padding:0px; }
+img { border:none;}
+a { color:#FFFFFF; text-decoration:none; }
+a:hover { text-decoration:underline; }
+.clr { clear:both; }
+
+.este { width:1070px; margin:0 auto; background:url(../images/footer_bg.png) no-repeat bottom;}
+.header { height:250px; background:url(../images/header.jpg) no-repeat; }
+.logo { width:500px; padding:20px 0px 0px 60px; float:left; }
+.header_menu { width:485px; padding:33px 0px 0px 25px; float:left;}
+	.header_menu a { color:#fff; text-shadow:#bf6b69 0px 0px 3px; text-decoration:none; }
+	.header_menu a:hover { color:#e0dede; text-shadow:#6e3231 1px 1px 5px; }
+	.header_menu ul { margin:0px; padding:0px; list-style:none; }
+	.header_menu ul li { font-weight:bold; font-size:12px; text-shadow:#000 1px 1px; display:inline; padding-right:18px; }
+	.header_menu ul li:hover {  text-shadow:#000 1px 1px; }
+	
+.slider { width:951px; height:148px; background:url(../images/slider_bg.png) no-repeat; margin:50px auto 0px auto; padding:12px 0px 0px 50px; }
+
+.menu { width:1070px; text-align:center; }
+	.menu ul { list-style:none; }
+	.menu ul li a { width:174px; height:35px; text-align:center; font-size:12px; font-weight:bold; padding-top:10px; margin-right:8px; background:url(../images/menu_a.png) no-repeat; display:block; float:left; }
+	.menu ul li a:hover { background:url(../images/menu_hover.png) no-repeat; }
+
+.middle { margin:0px 0px 0px 35px;}
+.middle .left { width:590px; float:left; }
+	.left .info { background:#1d050a; border:#3a0a14 1px dashed; font-size:14px; font-style:italic; padding:10px 7px; margin-top:10px; }
+	.left .news { margin:30px 0px 15px 0px; padding:15px 20px 30px 20px; background:#0e0e0e; border-radius: 5px 5px; }
+	.left .news .image { width:165px; margin:15px 10px 0px 0px; float:left; }
+	.left .news .title { width:360px; float:left; }
+	.left .news .title h2 { margin:0px; padding:0px; font-size:24px; line-height:35px; }
+	.left .news .info { color:#bfbbbb; font-weight:bold; border:none; border-left:#a33a39 3px solid; background:none; margin-left:10px; padding-left:15px; font-style:normal; float:left; }
+
+.middle .right { width:360px; float:left; }
+	.right h3 { font-size:18px; font-weight:normal; margin:0px; padding:0px; }
+	.right .block1 { background:#0f0a0b; border-radius: 5px 5px; margin:0px 20px 0px 20px; padding:35px 12px 25px 12px; }
+	.right .block1 .block_con { font-size:12px; }
+		.block1 .block_con ul { list-style:none; font-size:11px; margin:35px 0px 0px 5px; line-height:20px; padding:0px; }
+	.right .block2 { margin-left:20px; padding:35px 12px 25px 12px; }
+		.block2 p { margin:30px 0px 0px 0px; }
+		.block2 a { 
+		filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50); /* IE 5.5+*/ 
+		-moz-opacity: 0.5; /* Mozilla 1.6 и ниже */ 
+		-khtml-opacity: 0.5; /* Konqueror 3.1, Safari 1.1 */ 
+		opacity: 0.5; /* CSS3 - Mozilla 1.7b +, Firefox 0.9 +, Safari 1.2+, Opera 9+ */
+		}
+		.block2 a:hover { 
+		filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100); /* IE 5.5+*/ 
+		-moz-opacity: 1; /* Mozilla 1.6 и ниже */ 
+		-khtml-opacity: 1; /* Konqueror 3.1, Safari 1.1 */ 
+		opacity: 1; /* CSS3 - Mozilla 1.7b +, Firefox 0.9 +, Safari 1.2+, Opera 9+ */
+		}
+	.right .block3 { margin-left:20px; padding:35px 12px 25px 12px; font-size:11px; clear:both; }
+		.block3 a { color:#a26974; font-size:12px; font-weight:bold; margin:0px 0px 0px -4px; }
+		.block3 img { margin-right:7px; float:left; }
+		.block3 ul { list-style:none; margin:30px 0px; padding:0px; }
+		.block3 p { margin:5px 0px 15px 0px;}
+		.block3 li { height:100px; }
+
+.footer { width:1070px; font-size:12px; clear:both; margin-top:100px;  }
+	.sosumi { width:630px; padding:0px 10px 20px 20px; float:left; }
+	.footer_menu { width:400px; padding:7px 0px 20px 10px; float:left; }
+		.footer_menu ul { list-style:none; margin:0px; padding:0px; }
+		.footer_menu ul li { display:inline; margin-right:15px; }
+		.footer_menu a { text-decoration:underline; }
