@@ -62,7 +62,7 @@ $content = ob_get_clean();
         <meta name="mailru-domain" content="nKrZcHaPcrsJjlyU" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-        <link href="style.css" type="text/css" rel="stylesheet">
+        <link href="style.min.css" type="text/css" rel="stylesheet">
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script src="/libs.js"></script>
         <title>Of Nine by CaguCT | Примеры работ</title>
