@@ -81,7 +81,7 @@ $content = ob_get_clean();
                     <a href="#OpenCart">#OpenCart</a>
                     <a href="#HY">#HY</a>
                     <a href="#KVS">#KVS</a>
-                    <a href="#uCoz">#uCoz</a>
+                    <!--<a href="#uCoz">#uCoz</a>-->
                     <a href="#Joomla">#Joomla</a>
                 </div>
             </div>
